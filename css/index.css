@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Oswald:wght@300&family=Pacifico&family=Roboto:wght@100;400;700&display=swap');
+:root {
+    --dark-bg-solid:#30343F;
+    --spacing-20: 20px;
+    --spacing-36: 36px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* HEADER */
+header{
+    background-color: var(--dark-bg-solid);
+    padding: var(--spacing-36);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar__logo{
+    max-width: 300px;
+}
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    gap:var(--spacing-20);
+}
+.navbar_item{
+    font-size: medium;
+}
