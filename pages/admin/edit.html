@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="initial-scale=1.0">
+<title>EDIT - CHALLENGE - Part 1 </title>
+</head>
+<header>
+    <nav>
+        <picture>
+            <a href="../../index.html">
+                <img src="../../img/branding/logo_light_horizontal.svg" alt="logo">
+            </a>
+        </picture>
+        <ul>
+            <li>
+                <a href="../../index.html">SALIR</a>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header> <!-- Fin Header-->
+
+<body>
+    <h2>EDITAR ITEM</h2>
+    <section>
+    <form>
+        <label for="categoria">Categoria:</label>
+            <select id="categoria" name="categoria">
+            <option value="Star Wars">STAR WARS</option>
+            <option value="Pokemon">POKEMON</option>
+            <option value="Harry Potter">HARRY POTER</option>
+            </select>
+        <label for="licencia">Licencia:</label>
+        <select id="licencia" name="licencia">
+            <option value="NARUTO">Naruto Shippuden</option>
+            <option value="Pokemon">POKEMON</option>
+            <option value="Harry Potter">HARRY POTER</option>
+        </select>
+    <p>
+        <label for="nombre">Nombre del Producto</label>
+        <input type="text" id="nombre" name="nombre">
+    </p>
+        <textarea name="message" rows="10" cols="30">Descripcion del producto.</textarea>
+    <br><br>
+        <label for="SKU">SKU:</label>
+        <input type="text" id="SKU" name="SKU">
+        <label for="precio">Precio:</label>
+        <input type="number" id="precio" name="precio">
+        <label for="stock">Stock: </label>
+        <input type="number" id="stock" name="stock">
+    <br><br>
+        <label for="descuento">Descuento:</label>
+        <input type="number" id="descuento" name="descuento">
+        <label for="cuotas">Cuotas:</label>
+        <select id="cuotas" name="cuotas">
+            <option value="3cuotas">3 cuotas sin interes</option>
+            <option value="6cuotas">6 cuotas</option>
+        </select>
+    <br><br>
+        <label for="imagen">Imágenes:</label>
+        <input type="file" id="imagen" name="imagen">
+    <br><br>
+        Frente
+        Dorso
+    <br><br>
+        <input type="submit" value="Modificar Producto">
+    </form>
+    </section>
+</body>
+
+<footer>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="../shop/shop.html">SHOP</a></li>
+                <li><a href="./register.html">REGISTRARSE</a></li>
+                <li><a href="./login.html">LOGIN</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
+            </ul>
+            <picture>
+                <img src="../../img/branding/isotype.svg" alt="logo de la marca">    
+            </picture>
+        </nav>
+    </section>
+    <p>All rights reserved 2023 - Funkoshop &copy;</p>
+</footer>
+</html>
