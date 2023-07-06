@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="initial-scale=1.0">
+<title>SHOP - CHALLENGE - Part 1 </title>
+</head>
+
+<body>
+<!-- Inicio Header-->
+<header>
+<nav>
+    <picture>
+        <a href="./index.html">
+            <img src="../../img/branding/logo_light_horizontal.svg" alt="logo">
+        </a>
+    </picture>
+    <ul>
+        <li>
+            <a href="../shop/shop.html">SHOP</a>
+        </li>
+        <li>
+            <a href="../admin/contacto.html">CONTACTO</a>
+        </li>
+        <li>
+            <a href="../admin/login.html">LOGIN</a>
+        </li>
+        <li>
+            <a href="../shop/item.html">
+            <img src="../../img/icons/cart-icon.svg" alt="icono de carrito">
+            </a>
+        </li>
+    </ul>
+</nav>
+</header> <!-- Fin Header-->
+<!-- Inicio MAIN-->
+<main>
+<section>  <!--FORMULARIO-->
+    <form action="item" method="post">
+        <label for="item">BUSCAR</label>
+        <input type="text" name="item" id="item" placeholder="Item o Categoria">
+    
+    <h2>ORDENAR POR</h2>
+        <select name="orden" id="orden">
+        <option value="descendente">Mayor a menor</option>
+        <option value="ascendente">Menor a mayor</option>
+         </select>
+    <h2>PRECIO</h2>
+    <form action="" method="post">
+        <label for="">MIN</label>
+        <input type="number" name="" id="">
+        <label for="">MAX</label>
+        <input type="number" name="" id="">
+    <h2>FILTRAR</h2>
+        <input type="checkbox" name="filtrar" id="filtrar" value="nuevos">
+        <label for="">NUEVOS</label>
+        <input type="checkbox" name="filtrar" id="filtrar" value="ofertas">
+        <label for="">OFERTAS</label> 
+        <input type="checkbox" name="filtrar" id="filtrar" value="especial">
+        <label for="">EDICIÓN ESPECIAL</label> 
+        <input type="checkbox" name="filtrar" id="filtrar" value="favoritos">
+        <label for="">FAVORITOS</label> 
+    </form>
+</section>
+
+<section> <!-- ARTICULOS-->
+    <ul>
+        <li>
+            <article><a href="">
+                <picture>
+                    <img src="../../img/star-wars/trooper-1.webp" alt="figura coleccionable Funko Stormtrooper">
+                </picture>
+                <div>
+                    <p>STAR WARS</p>
+                    <h4>STORMTROOPER LIGHTSABER</h4>
+                    <p>$ 1799,99.-</p>
+                    <p>3 CUOTAS SIN INTERÉS</p>
+                </div>
+                </a>
+            </article>
+        </li>
+        <li>
+            <article><a href="">
+                <picture>
+                    <img src="../../img/pokemon/pidgeotto-1.webp" alt="figura coleccionable Funko Pidgeotto">
+                </picture>
+                <div>
+                    <p>POKEMON</p>
+                    <h4>PIDGEOTTO</h4>
+                    <p>$ 1799,99.-</p>
+                    <p>3 CUOTAS SIN INTERÉS</p>
+                </div>
+                </a>
+            </article>
+        </li>
+        <li>
+            <article><a href="">
+                <picture>
+                    <img src="../../img/harry-potter/luna-1.webp" alt="figura coleccionable Funko Luna">
+                </picture>
+                <div>
+                    <p>HARRY POTTER</p>
+                    <h4>LUNA LOVEGOOD LION MASK</h4>
+                    <p>$ 1799,99.-</p>
+                    <p>3 CUOTAS SIN INTERÉS</p>
+                </div>
+                </a>
+            </article>
+        </li>
+    </ul>
+</section> 
+</main>
+
+<!-- Inicio Footer-->
+<footer>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="../shop/shop.html">SHOP</a></li>
+                <li><a href="../admin/register.html">REGISTRARSE</a></li>
+                <li><a href="../admin/login.html">LOGIN</a></li>
+                <li><a href="../admin/contacto.html">CONTACTO</a></li>
+            </ul>
+            <picture>
+                <img src="../../img/branding/isotype.svg" alt="logo de la marca">    
+            </picture>
+        </nav>
+    </section>
+    <p>All rights reserved 2023 - Funkoshop &copy;</p>
+</footer>
+
+</body>
+</html>
